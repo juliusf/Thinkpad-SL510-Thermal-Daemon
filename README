@@ -1,0 +1,12 @@
+Thinkpad SL510 Thermal v. 0.1
+
+Due to the fact that the normal Thinkpad SL510 fan control sucks pretty hard under linux, I've written this little daemon.
+
+It overwrites the firmware's fan settings and sends it own instead.
+
+I've increased the working temperature to 43 to 50 degrees Celsius, so the fan will stay quiet most of the time. Actually, I have no idea how this will affect your hardware's lifetime!
+
+WARNING: I CANNONT BE HELD RESPONSIBLE FOR ANY DAMAGE THIS SCRIPT MAY CAUSE!
+USE AT YOUR WN RISK!
+
+This daemon requires the thinkpad_acpi module!
